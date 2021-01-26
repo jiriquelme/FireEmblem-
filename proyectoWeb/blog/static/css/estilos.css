@@ -35,11 +35,11 @@ nav.navbar ul.nav li {
 
 /* Fondo */
 .navbar {
-    background-image: url(../Img/Full_Portrait_Seliph.png);
+    background-image: url(../Img/Background.jpg);
 }
 
 body{
-    background-image: url(../Img/Background.jpg);
+    background-image: url(../Img/Full_Portrait_Seliph.png);
 }
 
 /* Responsivo */
