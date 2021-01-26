@@ -1,0 +1,148 @@
+/* Fondo */
+
+.navbar {
+    background-color: black;
+    height: 50px;
+}
+
+body {
+    background-image: url(../Img/Background.jpg);
+}
+
+/* Modificaciones al Nav */
+
+.navbar-nav>li {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.navbar-nav>li:hover{
+    text-decoration: underline white;
+    
+}
+
+
+
+/* Letras */
+
+.letras-titulo {
+    color: #efcf00;
+    text-align: center;
+    font-family: 'fehFont';
+}
+
+@font-face {
+    font-family: 'fehFont';
+    src: url(../font/fireEmblemFont.TTF);
+}
+
+.letras-general {
+    position: flex;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    text-align: center;
+}
+
+.nav-link {
+    color: white !important;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+}
+
+nav.navbar ul.nav li {
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.nav-link {
+    color: white !important;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.iconoFeh {
+    width: auto;
+    height: 40px;
+}
+
+.container-responsivo {
+    position: relative;
+    margin: auto;
+    max-width: 500px;
+}
+
+.margen {
+    margin: 5%;
+    max-width: 1000px;
+    max-height: auto;
+}
+
+/* Responsivo */
+
+/*Smartphones*/
+
+@media only screen and (max-width:733px) {
+    .letras-general {
+        font-size: 13px;
+    }
+    .boton-subir {
+        width: 30px;
+        height: 30px;
+    }
+}
+
+/*Desktop*/
+
+@media only screen and (min-width:733px) {
+    .contenedor-carrusel {
+        display: flex;
+    }
+    .parrafo-libro {
+        position: relative;
+        top: 20%;
+    }
+    .boton-subir {
+        width: 50px;
+        height: 50px;
+    }
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+/* Carrusel */
+
+.imagen-carrusel {
+    width: auto;
+    height: 40vw;
+    position: relative;
+}
+
+/* Botones */
+
+.boton-subir {
+    position: fixed;
+    bottom: 0;
+    margin: 15px;
+    z-index: 1;
+}
+
+.boton-subir svg {
+    color: gray;
+}
+.boton-subir svg:hover {
+    color: white;
+    transition-duration: 0.7s;
+}
+
+.boton-subir:hover{
+    transition-duration: 2s;
+}
